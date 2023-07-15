@@ -2,20 +2,21 @@
 /**
  * main - Entry point
  * Description: 'Print alphabets except q and e'
- * Returrn: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
 	int n = 97;
+	char c;
 
-	while (n <= 122)
+	while (c = n; n <= 122)
 	{
 		if (n == 101 || n == 113)
 		{
 			n++;
 			continue;
 		}
-		putchar(n);
+		putchar(c);
 		n++;
 	}
 	putchar('\n');
