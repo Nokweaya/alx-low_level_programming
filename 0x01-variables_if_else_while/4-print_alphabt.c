@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - Print alphabets except q and e
+ * main - Entry point
+ * Description: 'Print alphabets except q and e'
  * Returrn: Always 0
  */
 int main(void)
